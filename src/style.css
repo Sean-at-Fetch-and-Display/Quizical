@@ -25,13 +25,17 @@ light font colour: #fff8f0
 }
 */
 
-root {
+:root {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --yellow: #f3b239;
+  --white: #fff8f0;
+  --black: #3b230d;
 }
 
 html {
@@ -68,7 +72,7 @@ body {
   font-family: "main_font", Avenir, system-ui, Inter, Helvetica, Arial,
     sans-serif;
   font-size: 18px;
-  color: black;
+  color: var(--black);
 
   display: flex;
   flex-direction: column;
@@ -137,15 +141,15 @@ h3 {
 /* Buttons */
 
 button {
-  border: 1px solid #3b230d;
+  border: 1px solid var(--black);
   border-radius: 50%;
   width: 75px;
   height: 75px;
   font-family: main_font;
   font-size: 1.2em;
   text-align: center;
-  background-color: #fff8f0;
-  color: #3b230d;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .button_display {
@@ -204,8 +208,8 @@ button {
   padding-bottom: 1.3rem;
   min-width: 250px;
   max-width: 600px;
-  border-top: 1px solid #3b230d;
-  border-bottom: 1px solid #3b230d;
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
 }
 
 .options_grid {
@@ -226,7 +230,7 @@ button {
 /* Table */
 
 table {
-  border: 3px solid #3b230d;
+  border: 3px solid var(--black);
   border-radius: 8px;
   text-align: left;
   min-width: 300px;
@@ -237,8 +241,8 @@ table {
 }
 
 th {
-  background-color: #3b230d;
-  color: #fff8f0;
+  background-color: var(--black);
+  color: var(--white);
   font-family: main_font;
   font-size: 1.1em;
   text-align: center;
