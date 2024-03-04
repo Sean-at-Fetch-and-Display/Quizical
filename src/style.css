@@ -20,6 +20,9 @@ root {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
