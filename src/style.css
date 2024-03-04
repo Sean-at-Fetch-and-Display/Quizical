@@ -164,6 +164,10 @@ button {
   font-size: 1.2em;
 }
 
+.start_Q_btn {
+  width: 220px;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
