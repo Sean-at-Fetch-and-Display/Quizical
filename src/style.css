@@ -1,0 +1,253 @@
+/*
+
+Design
+
+background colour: #f4b239
+button background colour: #FFF8F0
+dark font colour: #3b230d
+light font colour: #fff8f0
+
+*/
+
+@font-face {
+  font-family: "main_font";
+  src: url("./assets/arciformff/Arciform.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+root {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+
+  background: hsla(39, 89%, 59%, 1);
+  background: -moz-linear-gradient(
+      135deg,
+      hsla(39, 89%, 59%, 1) 35%,
+      hsla(44, 88%, 63%, 1) 100%
+    )
+    no-repeat;
+  background: -webkit-linear-gradient(
+      135deg,
+      hsla(39, 89%, 59%, 1) 35%,
+      hsla(44, 88%, 63%, 1) 100%
+    )
+    no-repeat;
+  background: linear-gradient(
+      135deg,
+      hsla(39, 89%, 59%, 1) 35%,
+      hsla(44, 88%, 63%, 1) 100%
+    )
+    no-repeat;
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F4B239", endColorstr="#F4C74C", GradientType=1 );
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+  color: #3b230d;
+}
+
+.quiz-container {
+  min-width: 300px;
+  max-width: 900px;
+  height: 100%;
+  margin: 1rem 0rem;
+}
+
+/*
+.quiz-container::before {
+  content: "";
+  background-image: url("./images/bg_symbol_image_invert_v2.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+}
+*/
+
+/* Fonts */
+
+h1 {
+  padding: 1.5rem;
+  font-family: main_font;
+  font-weight: 100;
+  font-size: 2em;
+}
+
+h2 {
+  padding: 1.3rem;
+  font-family: main_font;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+h3 {
+  padding: 1rem;
+  font-family: main_font;
+  font-weight: 100;
+  font-size: 1em;
+}
+
+.header_font > span {
+  font-size: 2em;
+}
+
+/* Buttons */
+
+button {
+  border: 1px solid #3b230d;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-family: main_font;
+  font-size: 1.4em;
+  background-color: #fff8f0;
+}
+
+.button_display {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: auto auto;
+}
+
+.control_panel {
+  margin: 1.5rem 1.5rem;
+  padding: 1.3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.control_btn {
+  width: 100px;
+  height: 70px;
+  border-radius: 8px;
+  margin: 0.5rem 0.5rem;
+}
+
+.category {
+  width: 160px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  margin: 15px;
+}
+
+.selection-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 15px;
+  padding-bottom: 1.3rem;
+  min-width: 250px;
+  max-width: 600px;
+  border-top: 1px solid #3b230d;
+  border-bottom: 1px solid #3b230d;
+}
+
+.options_grid {
+  margin: 2.5rem 0;
+  width: 100%;
+  display: grid;
+  gap: 10px 0px;
+  grid-template-columns: auto;
+}
+
+.options_button {
+  min-width: 250px;
+  width: 100%;
+  min-height: 100%;
+  border-radius: 8px;
+}
+
+/* Table */
+
+table {
+  border: 3px solid #3b230d;
+  border-radius: 8px;
+  text-align: left;
+  color: #3b230d;
+  min-width: 300px;
+  padding: 0.5rem 0;
+  display: grid;
+  justify-content: center;
+  word-wrap: break-word;
+}
+
+th {
+  background-color: #3b230d;
+  color: #fff8f0;
+  font-family: main_font;
+  font-size: 1.1em;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 7px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f8d38e;
+}
+
+td {
+  padding: 10px 3px;
+  border-radius: 8px;
+}
+
+/* Media Queries*/
+
+@media only screen and (min-width: 600px) {
+  table {
+    width: 500px;
+    padding: 1.5rem;
+    border-radius: 18px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  table {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  table {
+    width: 900px;
+  }
+}
