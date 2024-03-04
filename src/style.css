@@ -139,11 +139,10 @@ h3 {
 button {
   border: 1px solid #3b230d;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
   font-family: main_font;
-  font-size: 1em;
-  /*text-align: -webkit-center;*/
+  font-size: 1.2em;
   text-align: center;
   background-color: #fff8f0;
   color: #3b230d;
@@ -226,8 +225,6 @@ table {
   border: 3px solid #3b230d;
   border-radius: 8px;
   text-align: left;
-  /*color: #3b230d;
-  -webkit-text-fill-color: #3b230d;*/
   min-width: 300px;
   padding: 0.5rem 0;
   display: grid;
