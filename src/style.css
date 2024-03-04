@@ -141,8 +141,8 @@ button {
   width: 70px;
   height: 70px;
   font-family: main_font;
-  font-size: 1.4em;
-  background-color: white; /* #fff8f0; */
+  font-size: 1.2em;
+  background-color: #fff8f0;
 }
 
 .button_display {
@@ -222,8 +222,8 @@ table {
   border: 3px solid #3b230d;
   border-radius: 8px;
   text-align: left;
-  color: #3b230d;
-  -webkit-text-fill-color: #3b230d;
+  /*color: #3b230d;
+  -webkit-text-fill-color: #3b230d;*/
   min-width: 300px;
   padding: 0.5rem 0;
   display: grid;
@@ -233,7 +233,7 @@ table {
 
 th {
   background-color: #3b230d;
-  color: white; /* #fff8f0*/
+  color: #fff8f0;
   font-family: main_font;
   font-size: 1.1em;
   text-align: center;
