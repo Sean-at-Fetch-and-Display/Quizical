@@ -9,21 +9,21 @@ light font colour: #fff8f0
 
 */
 
-/*
 @font-face {
   font-family: "main_font";
   src: url("./assets/arciformff/Arciform.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
-*/
 
+/*
 @font-face {
   font-family: "main_font";
   src: url("./assets/Comic_Neue/OFL.txt") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
+*/
 
 root {
   box-sizing: border-box;
