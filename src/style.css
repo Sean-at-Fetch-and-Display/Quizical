@@ -144,8 +144,8 @@ button {
   font-family: main_font;
   font-size: 1.2em;
   text-align: center;
-  background-color: #fff8f0 !important;
-  color: #3b230d !important;
+  background-color: #fff8f0;
+  color: #3b230d;
 }
 
 .button_display {
