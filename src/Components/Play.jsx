@@ -215,7 +215,7 @@ export default function Play() {
     <>
       <Results scoreResults={scoreResults()} data={data} />
       <Button
-        className="prev_Q_btn control_btn"
+        className="prev_Q_btn control_btn refresh_btn"
         type="submit"
         btnText="Refresh"
         onClick={refreshPage}

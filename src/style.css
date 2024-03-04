@@ -183,6 +183,10 @@ button {
   width: 220px;
 }
 
+.refresh_btn {
+  width: 220px;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
