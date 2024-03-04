@@ -142,7 +142,7 @@ button {
   height: 70px;
   font-family: main_font;
   font-size: 1.4em;
-  background-color: #fff8f0;
+  background-color: white; /* #fff8f0; */
 }
 
 .button_display {
@@ -233,7 +233,7 @@ table {
 
 th {
   background-color: #3b230d;
-  color: #fff8f0;
+  color: white; /* #fff8f0*/
   font-family: main_font;
   font-size: 1.1em;
   text-align: center;
