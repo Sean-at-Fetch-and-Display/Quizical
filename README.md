@@ -6,6 +6,8 @@
 
 ![Screenshot of a the initial page of the Quizical Web Application, the page asks the user to select how many questions to be asked.](./Screenshots/Quizical%20Quantity%20Image.png)
 
+![<img src="./Screenshots/Quizical%20Quantity%20Image.png" width="100" height="100">]
+
 <!-------------------------------------------------------------------------------->
 
 ## Description:
