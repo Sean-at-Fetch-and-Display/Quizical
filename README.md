@@ -4,14 +4,17 @@
 
 ## Project Screen Shot(s)
 
+![Screenshot of a the initial page of the Quizical Web Application, the page asks the user to select how many questions to be asked.](./Screenshots/Quizical%20Quantity%20Image.png)
+
 <!-------------------------------------------------------------------------------->
 
 ## Description:
 
-A Quiz application where the user can go back to change their answer to a question.
+A Quiz application where the user can go back to change their answer to a previous question or to skip a question and return later.
+
 The user can select how many questions can be asked, the difficulty level of the questions and what category the questions can be retrieved from.
 
-Live Link:
+Live Link: https://welcometoquizical.netlify.app
 
 <!-------------------------------------------------------------------------------->
 
