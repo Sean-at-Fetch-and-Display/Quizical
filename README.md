@@ -12,13 +12,14 @@ A Quiz application where the user can go back to change their answer to a previo
 
 The user can select how many questions can be asked, the difficulty level of the questions and what category the questions can be retrieved from.
 
-Live Link: https://welcometoquizical.netlify.app
+> [!NOTE]
+> Live Link: https://welcometoquizical.netlify.app
 
 ---
 
 ## Project Screen Shot(s)
 
-    - Screenshot of a the initial page of the Quizical Web Application, the page asks the user to select how many questions to be asked.
+    - Screenshot of the initial page of the Quizical Web Application, the page asks the user to select how many questions to be asked.
 
 <img src="./Screenshots/Quizical%20Quantity%20Image.png" width="250" height="250">
 
@@ -81,17 +82,17 @@ npm start
 
 To Visit App:
 
-localhost:3000/ideas
+localhost:[portnumber presented]
 
 ---
 
 ## ToDo's
 
-- Change the Fetch API with a TanStack Query API.
-- Delete unused classes and ID's in the HTML/JSX.
-- Refactor the CSS file.
-- Refactor each Component file.
-- Add background image with an opacity to sit on top of the gradient background.
+- [ ] Change the Fetch API with a TanStack Query API.
+- [ ] Delete unused classes and ID's in the HTML/JSX.
+- [ ] Refactor the CSS file.
+- [ ] Refactor each Component file.
+- [ ] Add background image with an opacity to sit on top of the gradient background.
 
 ---
 
