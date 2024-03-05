@@ -2,10 +2,10 @@
 
 Design
 
-background colour: #f4b239
-button background colour: #FFF8F0
-dark font colour: #3b230d
-light font colour: #fff8f0
+background colour (yellow): #f3b239
+button background colour (white): #FFF8F0
+dark font colour (black): #3b230d
+light font colour (white): #fff8f0
 
 */
 
@@ -86,8 +86,7 @@ h5,
 h6 {
   margin: 0px;
   padding: 0px;
-  color: black; /*#3b230d; 
-  -webkit-text-fill-color: #3b230d;*/
+  color: var(--black);
 }
 
 .quiz-container {
