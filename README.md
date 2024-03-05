@@ -1,6 +1,10 @@
-# **PROJECT: QUIZICAL**
+# **Project Name: QUIZICAL**
+
+---
 
 ## Project Status: In Development
+
+---
 
 ## Description:
 
@@ -10,7 +14,7 @@ The user can select how many questions can be asked, the difficulty level of the
 
 Live Link: https://welcometoquizical.netlify.app
 
-<!-------------------------------------------------------------------------------->
+---
 
 ## Project Screen Shot(s)
 
@@ -38,7 +42,7 @@ Live Link: https://welcometoquizical.netlify.app
 
  <img src="./Screenshots/Quizical Results Image.png" width="250" height="250">
 
-<!-------------------------------------------------------------------------------->
+---
 
 ## Languages & tools
 
@@ -49,13 +53,13 @@ Live Link: https://welcometoquizical.netlify.app
 - Vite
 - UUID : version ^9.0.1
 
-<!-------------------------------------------------------------------------------->
+---
 
 ## API'S Used
 
 - https://opentdb.com
 
-<!-------------------------------------------------------------------------------->
+---
 
 ## Installation and Setup Instructions
 
@@ -79,21 +83,21 @@ To Visit App:
 
 localhost:3000/ideas
 
-<!-------------------------------------------------------------------------------->
+---
 
 ## ToDo's
 
 - Change the Fetch API with a TanStack Query API.
-- Delete unused classes and ID's in the HTML/JSX
-- Refactor the CSS file
-- Refactor each component files
+- Delete unused classes and ID's in the HTML/JSX.
+- Refactor the CSS file.
+- Refactor each Component file.
 - Add background image with an opacity to sit on top of the gradient background.
 
-<!-------------------------------------------------------------------------------->
+---
 
 ## Reflection
 
-<!-------------------------------------------------------------------------------->
+---
 
 # React + Vite
 
