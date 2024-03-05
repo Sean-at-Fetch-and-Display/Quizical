@@ -44,6 +44,8 @@ The user can select how many questions can be asked, the difficulty level of the
 
      Once the Finish button is selected, the page will rerender and show the a table of the results from the quiz. This table will show how many questions you got right and which were wrong. There is a Refresh button at the bottom where the user can click and start the quiz again from the start.
 
+
+
  <img src="./Screenshots/Quizical Results Image.png" width="250" height="250">
 
 </details>
