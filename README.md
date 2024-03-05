@@ -1,5 +1,7 @@
 # **Project Name: QUIZICAL**
 
+<img src="./Screenshots/Quizical%20Quantity%20Image.png" width="250" height="250">
+
 ---
 
 ## Project Status: In Development
@@ -19,11 +21,11 @@ The user can select how many questions can be asked, the difficulty level of the
 
 ## Project Screen Shot(s)
 
+<details>
     Screenshot of the initial page of the Quizical Web Application, the page asks the user to select how many questions to be asked.
 
 <img src="./Screenshots/Quizical%20Quantity%20Image.png" width="250" height="250">
 
-<details>
     Screenshot of the 2nd page of the Quizical Web Application, the page asks the user to select the difficulty of the questions to be asked.
 
  <img src="./Screenshots/Quizical Difficulty Image.png" width="250" height="250">
